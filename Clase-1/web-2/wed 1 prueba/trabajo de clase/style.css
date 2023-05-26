@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(127, 136, 255);
+} /*este se utiluza parala pagina pricipal el estilo */
+.mi-nombre{ 
+    background-color: blue;
+    width: 180px;
+} /* es para generar la primera informacion */
+.presentacion{
+    background-color: aqua;
+    width: 300px;
+    height:220px;
+} /*este sirve para el texto de la presetancion*/
+.pais{
+    background-color: brown;
+    width: 80px;
+}
+.teme{
+    font-size: 25px; 
+} /* esto sirve para cambiar de tamaño la letra*/

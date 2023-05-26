@@ -1,0 +1,137 @@
+*{
+ margin: 5px;
+ padding: 0;
+ border: 0;
+ font-size: 100px;
+}
+body{
+    background: #a39e9e;
+
+}
+.title{
+    display: flex;
+    margin: 50px;
+    margin-left: 420px;
+    width: 500px;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    color: black;
+    background: #fff;
+
+}
+.title h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.content-sau{
+   display: flex;
+   justify-content: center;
+}
+.navbar{
+    margin: 20px;
+    height: 240px;
+    width: 170px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #fff;
+}
+.navbar .betch1{
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 15px 20px;
+    height: 50px;
+    width: 130px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.navbar .betch2{
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 15px 20px;
+    height: 50px;
+    width: 130px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-radius: 8px;
+}
+.navbar .betch3{
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 15px 20px;
+    height: 50px;
+    width: 130px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-radius: 8px;
+}
+.padre-main{
+    margin: 20px;
+    height: 240px;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+}
+.texto1{
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 15px 20px;
+    height: 210px;
+    width: 220px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.texto2{
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 15px 20px;
+    height: 210px;
+    width: 220px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.texto3{
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 15px 20px;
+    height: 210px;
+    width: 220px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.footer h1{
+    font-size: 15px;
+    text-align: center;
+
+}
+.footer a{
+    font-size: 15px;
+    text-align: center;
+}

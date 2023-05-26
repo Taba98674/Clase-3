@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}   
+body{
+    background-color: rgba(0, 204, 255, 0.349);
+
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex ;
+
+}
+.navbar .ae{
+    list-style: none;
+}
+.nombre{
+    width: 350px;
+    height: 350px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: space-evenly;
+}

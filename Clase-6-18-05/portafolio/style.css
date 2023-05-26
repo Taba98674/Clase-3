@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 85px;
+    width: 100%;
+    color: black;
+    font-weight: 50;
+    font-size: 20px;
+    background-color: rgb(0, 176, 255);
+    box-shadow: 0 0.1rem 0.8rem darkblue;
+}
+.navbar li{
+    margin-right:15px;
+    font-size: 20px;
+    color: black;
+}
+.navbar ul{
+    padding: 20px 30px 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    align-items: baseline;
+}
+.navbar a{
+    text-decoration: none;
+}
+.lista{
+    margin-left: 5px;  
+}
+.btn-contacteme{
+    border-radius: 20px;
+    background-color: rgb(0, 176, 255);
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    font-size: 23px;
+}
+.presentacion{
+   display: flex;
+   justify-content: space-around;
+}
+.parrafo{
+    width: 500px;
+    height: auto;
+    margin: 50px;
+    margin-top: 50px;
+}
+.parrafo h1{
+    position: relative;
+    margin-top: 40px;
+    font-size: 25px;
+    color: black;
+    width: 600px;
+}
+.parrafo h2{
+    position: relative;
+    margin-top: 30px;
+    font-size: 80px;
+    color: rgb(0, 176, 255);
+    width: 600px;
+}
+.parrafo h3{
+    position: relative;
+    margin-top: 30px;
+    font-size: 25px;
+    color: black;
+    width: 600px;
+}
+.parrafo button{
+    position: relative;
+    margin-top: 80px;
+    font-size: 25px;
+    color: black;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(0, 176, 255);
+
+}
+button:hover{
+    background-color:rgb(0, 176, 255);
+    transition: .5S;
+}
+.imagenes img{
+    margin-top: 80px;
+    height: 330px;
+    width: 520px;
+    text-align: center;
+}
+.info{
+    margin: 30px;
+    margin-top: 120px;
+    border: 1px solid rgb(48, 43, 43);
+    height: 500px;
+    display: flex;
+}
+.infor{
+    margin: 15px;
+    height: 130px;
+    width: 40pxs;
+    border: 1px solid rgb(15, 15, 15);
+    display: flex;
+}
+.infor h1{
+    align-items: center;
+    color: rgb(0, 176, 255);
+    text-align: center;
+    justify-content: space-between;
+    font-size: 60px;
+}
+.infor p{
+    margin-left: 60px;
+    margin-right: 60px;
+    align-items:flex-start;
+    justify-content: center;
+    font-size: 23px;
+}
+/*Contenedor principal de inicio*/
+
+.background-pag {
+  background: fff
+;
+  }
+  
+  /*Contenido de los estilos de conocimientos*/
+  .conocimi {
+    height: 720px;
+  }
+  .title-cono {
+    height: auto;
+    text-align: center;
+  }
+  .title-cono h1 {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+  .title-cono p {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  #grid-cono {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-gap: 5px 5px;
+  }
+  
+  .conocimi {
+    border-radius: 15px;
+    background: rgb(0, 176, 255);
+    background: radial-gradient(
+      circle,
+      rgb(104, 175, 207) 8%,
+      rgb(129, 184, 242) 45%,
+      rgb(100, 137, 233) 100%
+    );
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem 15vh;
+    height: 230px;
+  }
+  .cono-item {
+    background: #fff;
+    height: 12rem;
+    width: 14rem;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.8rem;
+    margin: 1rem;
+  }
+  .cono-img {
+    margin-top: 1.2rem;
+    justify-content: space-around;
+    display: flex;
+  }
+  .cono-img img {
+    width: 120px;
+    height: 110px;
+    border-radius: 15px;
+  }
+  .cono-info {
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  .cono-info h1 {
+    font-size: 22px;
+  }
+  
+  /*Estilos de la informacion de frase*/
+  .proyect {
+    height: 230px;
+    margin-top: 20px;
+  }
+  .proyect .proyect-icon {
+    height: 80px;
+    width: 300px;
+    font-size: 45px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .proyect-icon {
+    margin-top: 20px;
+    margin-left: 33rem;
+  }
+  .proyect-info {
+    height: auto;
+    margin: 12rem;
+    margin-top: 20px;
+  }
+  .proyect-info h1 {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 40px;
+    color: rgb(8, 7, 7);
+  }
+  .proyect-info h2 {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 20px;
+  }
+  
+  /*Estilos de la informacion de mis proyectos*/
+  .con-pro {
+    height: auto;
+  }
+  .title-pro {
+    height: auto;
+    text-align: center;
+  }
+  .title-pro h1 {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+  .title-pro p {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .cont-pro {
+    border-radius: 15px;
+    background: rgb(0, 176, 255);
+    background: radial-gradient(
+      circle,
+      rgb(104, 175, 207) 8%,
+      rgb(129, 184, 242) 45%,
+      rgb(100, 137, 233) 100%
+    );
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem 15vh;
+    height: auto;
+  }
+  #grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-gap: 20px px;
+  }
+  
+  .item-cont-pro {
+    background: #fff;
+    height: 12rem;
+    width: 14rem;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.8rem;
+    margin: 1rem;
+  }
+  .img-cont-pro {
+    margin-top: 1.2rem;
+    justify-content: space-around;
+    display: flex;
+  }
+  .img-cont-pro img {
+    width: 120px;
+    height: 110px;
+    border-radius: 15px;
+  }
+  .info-cont-pro {
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  .info-cont-pro h1 {
+    font-size: 22px;
+  }
+
+  /*contenedor de los estilos de escribeno*/
+  .escribe{
+    display: flex;
+    border-radius: 20px;
+    margin: 0px 190px 0px 190px;
+    background-color: rgb(42, 161, 235);
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    }
+  .escribe-info{
+    display: flex;
+    gap: 2rem;
+  }
+
+.name input{
+  width: 200px;
+  height: 20px;
+}
+.lastname input{
+  width: 200px;
+  height: 20px;
+}
+.gmail{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  
+}
+.mensaje{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+
+}
+.contactame{
+  padding: 45px 15px 15px 15px;
+  display: flex;
+  border-radius: 20px;
+  margin: 0px 190px 0px 190px;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 15px 0;
+}
+.gmail_logo{
+  width: 15px;
+  height: 15px;
+  display: flex;
+  border-radius: 20px;
+  margin: 0px 190px 0px 190px;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 15px 0;
+}
+.contactame h3{
+  margin-left: 130px;
+}
+.foote{
+  height: 85px;
+  width: 100%;
+  color: black;
+
+  font-size: 20px;
+  background-color: rgb(0, 176, 255);
+  box-shadow: 0 0.1rem 0.8rem darkblue;
+  border: 1px solid red;
+}
+.foote li{
+  margin-right:15px;
+  font-size: 20px;
+  color: black;
+}
+.foote ul{
+  padding: 20px 30px 20px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  align-items: baseline;
+}
+.foote a{
+  text-decoration: none;
+}
