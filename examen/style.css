@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+header{
+    background:dimgrey;
+    color: #fff;
+    height: 4rem;
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 5rem;
+}
+.enlace{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+}
+.line{
+    border-left: 1px solid ;
+    padding: 0 1rem 0 1rem;
+}
+.contenedor-boton{
+    padding-right: 4rem;
+}
+.btn_1{
+    border: 1px solid;
+    padding: 0.6rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0.4rem;
+}
+.btn_1:hover{
+    background: blue;
+    border: none;
+}
+.btn_2{
+    border: 1px solid blue;
+    padding: 0.6rem;
+    background: blue;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0.4rem ;
+}
+.btn_2:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+}
+.busca{
+    background: silver;
+    color: white;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.busca h1{
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+.busca input{
+    padding: 0.6rem 15rem 0.6rem 1.2rem;
+    border: 1px solid black;
+}
+.espacio{
+    margin-bottom: 5rem;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.car-info{
+    display: flex;
+    justify-content: space-between;
+}
+.texto{
+    width: 20rem;
+    height: 6rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.texto img{
+    width: 80px;
+    border-radius: 10px;
+}
+.text-info h1{
+    font-size: 1rem;
+}
+.text-info p{
+    font-size: 8px;
+}
+.text-info a{
+    color: black;
+    font-size: 12px;
+}
+.text-info a:hover{
+    border: 1px solid black;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer{
+    background: silver;
+    color:#000;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    flex-direction: column;
+    display: flex;
+    margin: 2rem;
+    margin-left: 10rem;
+    font-size: 1.2rem;
+}
+.foter{
+    flex-direction: column;
+    display: flex;
+    margin: 2rem;
+    font-size: 1.2rem;
+    margin-right: 8rem;
+}
+.foter a{
+    padding: 4px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+.foter a:hover{
+    background: #fff;
+    color: #000;
+}
